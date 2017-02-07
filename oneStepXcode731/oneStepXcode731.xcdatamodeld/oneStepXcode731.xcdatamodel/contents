@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G31" minimumToolsVersion="Automatic">
+    <entity name="PlanData" representedClassName="PlanData" syncable="YES">
+        <attribute name="importance" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="progress" optional="YES" attributeType="Float" minValueString="0" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="reached" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="repeatedMission" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="submissions" optional="YES" attributeType="Transformable" valueTransformerName="Submissions" syncable="YES"/>
+        <attribute name="tags" optional="YES" attributeType="Transformable" valueTransformerName="Tags" syncable="YES"/>
+        <attribute name="targetNumber" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="targetUnit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="PlanData" positionX="-63" positionY="-18" width="128" height="195"/>
+    </elements>
+</model>

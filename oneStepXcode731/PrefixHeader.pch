@@ -1,0 +1,23 @@
+//This file contains 'import' and 'macro' for this project
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+//import
+#import <UIKit/UIKit.h>
+#import "PlanData.h"
+#import <CoreData/CoreData.h>
+#import "AppDelegate.h"
+#import "SVProgressHUD/SVProgressHUD.h"
+
+//make NSLog clear
+#define NSLog(FORMAT, ...) fprintf(stderr,"%s\n",[[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+
+
+//define Macro
+#define SCREEN_WIDTH    [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT   [UIScreen mainScreen].bounds.size.height
+
+
+#endif /* PrefixHeader_pch */
